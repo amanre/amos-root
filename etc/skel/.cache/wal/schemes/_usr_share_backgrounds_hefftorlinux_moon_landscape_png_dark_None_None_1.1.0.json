@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/hefftorlinux/moon_landscape.png",
+    "alpha": "100",
+    "special": {
+        "background": "#110b10",
+        "foreground": "#cedeec",
+        "cursor": "#cedeec"
+    },
+    "colors": {
+        "color0": "#110b10",
+        "color1": "#205DA3",
+        "color2": "#4E76AB",
+        "color3": "#6699AE",
+        "color4": "#6E9FD9",
+        "color5": "#C6A996",
+        "color6": "#8FB4DF",
+        "color7": "#cedeec",
+        "color8": "#909ba5",
+        "color9": "#205DA3",
+        "color10": "#4E76AB",
+        "color11": "#6699AE",
+        "color12": "#6E9FD9",
+        "color13": "#C6A996",
+        "color14": "#8FB4DF",
+        "color15": "#cedeec"
+    }
+}

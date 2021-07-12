@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/usr/share/backgrounds/amos-wallpapers/wallhaven-k716w7_1920x1080.jpg"
+let background = "#100a1e"
+let foreground = "#a5bedc"
+let cursor     = "#a5bedc"
+
+" Colors
+let color0  = "#100a1e"
+let color1  = "#AE4870"
+let color2  = "#4F519A"
+let color3  = "#5C5697"
+let color4  = "#9E579F"
+let color5  = "#D55DA0"
+let color6  = "#BF6BD0"
+let color7  = "#a5bedc"
+let color8  = "#73859a"
+let color9  = "#AE4870"
+let color10 = "#4F519A"
+let color11 = "#5C5697"
+let color12 = "#9E579F"
+let color13 = "#D55DA0"
+let color14 = "#BF6BD0"
+let color15 = "#a5bedc"

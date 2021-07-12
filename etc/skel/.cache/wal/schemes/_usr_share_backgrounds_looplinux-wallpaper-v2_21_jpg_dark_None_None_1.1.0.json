@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/looplinux-wallpaper-v2/21.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050321",
+        "foreground": "#96a2c8",
+        "cursor": "#96a2c8"
+    },
+    "colors": {
+        "color0": "#050321",
+        "color1": "#242C72",
+        "color2": "#501B55",
+        "color3": "#A5023F",
+        "color4": "#2E3984",
+        "color5": "#413D87",
+        "color6": "#37448C",
+        "color7": "#96a2c8",
+        "color8": "#69718c",
+        "color9": "#242C72",
+        "color10": "#501B55",
+        "color11": "#A5023F",
+        "color12": "#2E3984",
+        "color13": "#413D87",
+        "color14": "#37448C",
+        "color15": "#96a2c8"
+    }
+}

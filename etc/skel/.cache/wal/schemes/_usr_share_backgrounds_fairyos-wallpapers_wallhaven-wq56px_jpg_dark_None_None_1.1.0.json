@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-wq56px.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a011b",
+        "foreground": "#ebc7ca",
+        "cursor": "#ebc7ca"
+    },
+    "colors": {
+        "color0": "#0a011b",
+        "color1": "#182C9A",
+        "color2": "#313DAC",
+        "color3": "#2459D4",
+        "color4": "#DD7486",
+        "color5": "#50B0EC",
+        "color6": "#50B2EC",
+        "color7": "#ebc7ca",
+        "color8": "#a48b8d",
+        "color9": "#182C9A",
+        "color10": "#313DAC",
+        "color11": "#2459D4",
+        "color12": "#DD7486",
+        "color13": "#50B0EC",
+        "color14": "#50B2EC",
+        "color15": "#ebc7ca"
+    }
+}

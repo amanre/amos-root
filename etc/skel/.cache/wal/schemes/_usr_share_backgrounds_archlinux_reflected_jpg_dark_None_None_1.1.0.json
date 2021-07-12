@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/archlinux/reflected.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1c1c",
+        "foreground": "#cddbe2",
+        "cursor": "#cddbe2"
+    },
+    "colors": {
+        "color0": "#1d1c1c",
+        "color1": "#7792A9",
+        "color2": "#6B93B6",
+        "color3": "#73A1C5",
+        "color4": "#9FA09E",
+        "color5": "#CBC3B5",
+        "color6": "#8EB2CC",
+        "color7": "#cddbe2",
+        "color8": "#8f999e",
+        "color9": "#7792A9",
+        "color10": "#6B93B6",
+        "color11": "#73A1C5",
+        "color12": "#9FA09E",
+        "color13": "#CBC3B5",
+        "color14": "#8EB2CC",
+        "color15": "#cddbe2"
+    }
+}
