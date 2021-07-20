@@ -239,6 +239,10 @@ alias cz='sudo cp /etc/skel/.zshrc ~/.zshrc && source ~/.zshrc'
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 
+#switch between lightdm and sddm
+alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
+alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
+
 # auto-wal
 alias cycle='zsh ~/.config/bspwm/scripts/walcycle.sh'
 
@@ -327,10 +331,6 @@ alias dp="dots pull"
 alias add="config add"
 alias commit="config commit -m"
 alias pu="config push"
-
-#switch between lightdm and sddm
-alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
-alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
 
 #gpg
 #verify signature for isos
