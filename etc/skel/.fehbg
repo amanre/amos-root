@@ -1,6 +1,2 @@
 #!/bin/sh
-<<<<<<< HEAD
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/amos-wallpaper-v1/88.jpg' 
-=======
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/amos-wallpaper-v1/87.jpg' 
->>>>>>> db12082b312868c78fef4c0ba547affa7236227c
+feh --no-fehbg --bg-fill '/usr/share/backgrounds/amos-wallpaper-v3/024.jpg' 

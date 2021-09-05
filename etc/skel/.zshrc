@@ -5,13 +5,33 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+####  AMOS SETTINGS   ####
 
-# Set $PATH if ~/.local/bin exist
-if [ -d "$HOME/.bin" ]; then
-    export PATH=$HOME/.bin:$PATH
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+setopt GLOB_DOTS
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export HISTCONTROL=ignoreboth:erasedups
+
+# Make nano the default editor
+
+export EDITOR='nano'
+export VISUAL='nano'
+
+#PS1='[\u@\h \W]\$ '
+
+if [ -d "$HOME/.bin" ] ;
+  then PATH="$HOME/.bin:$PATH"
 fi
+
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
 
 # Activate powerlevel10k theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
@@ -56,7 +76,7 @@ setopt pushdminus
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'       # Case insensitive tab completion
-zstyle ':completion:*' rehash true                              # automatically find new executables in path 
+zstyle ':completion:*' rehash true                              # automatically find new executables in path
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"         # Colored completion (different colors for dirs/files/etc)
 zstyle ':completion:*' completer _expand _complete _ignored _approximate
 zstyle ':completion:*' menu select=2
@@ -153,7 +173,7 @@ fi
 
 
 
-# Add useful aliases 
+# Add useful aliases
 alias aup="pamac upgrade --aur"
 alias grubup="sudo update-grub"
 alias orphaned="sudo pacman -Rns $(pacman -Qtdq)"
@@ -194,6 +214,11 @@ alias unlock="sudo rm /var/lib/pacman/db.lck"
 #free
 alias free="free -mt"
 
+#skip integrity check
+alias paruskip='paru -S --mflags --skipinteg'
+alias yayskip='yay -S --mflags --skipinteg'
+alias trizenskip='trizen -S --skipinteg'
+
 #use all cores
 alias uac="sh ~/.bin/main/000*"
 
@@ -212,8 +237,8 @@ alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
 
 # yay as aur helper - updates everything
-alias pksyua="yay -Syu --noconfirm"
-alias upall="yay -Syu --noconfirm"
+alias pksyua="paru -Syu --noconfirm"
+alias upall="paru -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"
@@ -246,11 +271,14 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 # auto-wal
 alias cycle='zsh ~/.config/bspwm/scripts/walcycle.sh'
 
+#Display ISO version and distribution information in short
+alias version="sed -n 1p /etc/os-release && sed -n 11p /etc/os-release && sed -n 12p /etc/os-release"
+
 
 #conky management
 alias kc='killall conky'
-alias sc='~/.conky/conky-pywal/start_conky.sh' 
-alias rc='~/.conky/conky-pywal/refresh_conky.sh' 
+alias sc='~/.conky/conky-pywal/start_conky.sh'
+alias rc='~/.conky/conky-pywal/refresh_conky.sh'
 #hardware info --short
 alias hw="hwinfo --short"
 
@@ -322,7 +350,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #dot management at github
 alias a="dots add"          # add files to repo
-alias c="dots commit -m"    # commit files to repo 
+alias c="dots commit -m"    # commit files to repo
 alias p="dots push"         # push files to repo
 alias rm="dots rm -r -f"    # remove files from repo
 alias dp="dots pull"
@@ -335,25 +363,61 @@ alias pu="config push"
 #gpg
 #verify signature for isos
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+alias fix-gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+alias fix-gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+alias fix-key="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.conf ~/.gnupg/ ; echo 'done'"
+
+#fixes
+alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
+alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
+#iso and version used to install ArcoLinux
+alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
+
+#mounting the folder Public for exchange between host and guest on virtualbox
+alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
+
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
+alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
 
+#remove
+alias rmgitcache="rm -r ~/.cache/git"
+
+#changing the theming of your desktop
+alias theme1='cp -Rf ~/.bin/theme/1/* ~'
+alias theme2='cp -Rf ~/.bin/theme/2/* ~'
+alias theme3='cp -Rf ~/.bin/theme/3/* ~'
+alias theme4='cp -Rf ~/.bin/theme/4/* ~'
+alias theme5='cp -Rf ~/.bin/theme/5/* ~'
+alias theme6='cp -Rf ~/.bin/theme/6/* ~'
+alias theme7='cp -Rf ~/.bin/theme/7/* ~'
+alias theme8='cp -Rf ~/.bin/theme/8/* ~'
+alias theme9='cp -Rf ~/.bin/theme/9/* ~'
+alias theme10='cp -Rf ~/.bin/theme/10/* ~'
+alias theme11='cp -Rf ~/.bin/theme/11/* ~'
+alias theme12='cp -Rf ~/.bin/theme/12/* ~'
+alias theme13='cp -Rf ~/.bin/theme/13/* ~'
+alias theme14='cp -Rf ~/.bin/theme/14/* ~'
+alias theme15='cp -Rf ~/.bin/theme/15/* ~'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (cat ~/.cache/wal/sequences &)
  source ~/.cache/wal/colors-tty.sh
- 
+
+#give the list of all installed desktops - xsessions desktops
+alias xd="ls /usr/share/xsessions"
+
 #pfetch
 #clear && hfetch
 EDITOR=vim
@@ -363,3 +427,24 @@ neofetch
 ### RANDOM COLOR SCRIPT ###
 #colorscript random
 #colorscript -e illumina
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/amanre/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/amanre/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/amanre/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/amanre/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Start Jupyter Notebook
+alias jn='jupyter-notebook'
+
+# Start Anaconda Navigator
+alias an='anaconda-navigator'

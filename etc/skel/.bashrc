@@ -118,8 +118,8 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 
 #conky management
 alias kc='killall conky'
-alias sc='~/.conky/conky-pywal/start_conky.sh' 
-alias rc='~/.conky/conky-pywal/refresh_conky.sh' 
+alias sc='~/.conky/conky-pywal/start_conky.sh'
+alias rc='~/.conky/conky-pywal/refresh_conky.sh'
 
 #hardware info --short
 alias hw="hwinfo --short"
@@ -165,7 +165,7 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
 #dot management at github
 alias a="dots add"          # add files to repo
-alias c="dots commit -m"    # commit files to repo 
+alias c="dots commit -m"    # commit files to repo
 alias p="dots push"         # push files to repo
 alias rm="dots rm -r -f"    # remove files from repo
 alias dp="dots pull"
@@ -266,6 +266,24 @@ ex ()
   fi
 }
 
+#changing the theming of your desktop
+alias theme1='cp -Rf ~/.bin/theme/1/* ~'
+alias theme2='cp -Rf ~/.bin/theme/2/* ~'
+alias theme3='cp -Rf ~/.bin/theme/3/* ~'
+alias theme4='cp -Rf ~/.bin/theme/4/* ~'
+alias theme5='cp -Rf ~/.bin/theme/5/* ~'
+alias theme6='cp -Rf ~/.bin/theme/6/* ~'
+alias theme7='cp -Rf ~/.bin/theme/7/* ~'
+alias theme8='cp -Rf ~/.bin/theme/8/* ~'
+alias theme9='cp -Rf ~/.bin/theme/9/* ~'
+alias theme10='cp -Rf ~/.bin/theme/10/* ~'
+alias theme11='cp -Rf ~/.bin/theme/11/* ~'
+alias theme12='cp -Rf ~/.bin/theme/12/* ~'
+alias theme13='cp -Rf ~/.bin/theme/13/* ~'
+alias theme14='cp -Rf ~/.bin/theme/14/* ~'
+alias theme15='cp -Rf ~/.bin/theme/15/* ~'
+
+
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
@@ -278,21 +296,14 @@ ex ()
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 . /usr/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
-
-# reporting tools - install when not installed
-# install neofetch
-neofetch
-# install screenfetch
-#screenfetch
-# install ufetch-git
-#ufetch
-# install ufetch-arco-git
-#ufetch-arco
-# install arcolinux-paleofetch-git
-#paleofetch
-# install alsi
-#alsi
-# install arcolinux-bin-git - standard on ArcoLinux isos (or sfetch - smaller)
+#clear && hfpfetchetch
+EDITOR=vim
+# >>> conda initialize >>
+#neofetch
 #hfetch
-# install lolcat
-#sfetch | lolcat
+#sfetch
+pfetch
+### RANDOM COLOR SCRIPT ###
+
+colorscript random
+#colorscript -e illumina
