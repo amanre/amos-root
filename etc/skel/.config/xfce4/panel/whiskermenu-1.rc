@@ -1,8 +1,9 @@
 favorites=xfce4-terminal-emulator.desktop,xfce4-taskmanager.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce4-about.desktop,gpick.desktop
-recent=grub-customizer.desktop,gpick.desktop,xfce-settings-manager.desktop,com.github.themix_project.Oomox.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,org.xfce.PanelProfiles.desktop,xfce-workspaces-settings.desktop,kdocker.desktop,plank.desktop
-button-icon=/home/amanre/icons/122301-1.png
+recent=org.xfce.PanelProfiles.desktop,xfce-settings-manager.desktop,grub-customizer.desktop,gpick.desktop,com.github.themix_project.Oomox.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,xfce-workspaces-settings.desktop,kdocker.desktop,plank.desktop
+button-title=mos
+button-icon=/home/amanre/amos-logo.svg
 button-single-row=false
-show-button-title=false
+show-button-title=true
 show-button-icon=true
 launcher-show-name=true
 launcher-show-description=false

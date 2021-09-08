@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/amos-wallpaper-v3/024.jpg' 
+feh --no-fehbg --bg-fill '/usr/share/backgrounds/amos-wallpaper-v3/background.jpg' 
