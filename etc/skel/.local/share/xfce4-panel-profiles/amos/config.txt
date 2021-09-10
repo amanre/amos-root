@@ -1,0 +1,101 @@
+/configver 2
+/panels [<1>]
+/panels/dark-mode false
+/panels/panel-1/autohide-behavior uint32 0
+/panels/panel-1/background-rgba [<0.101961>, <0.37254900000000002>, <0.70588200000000001>, <1.0>]
+/panels/panel-1/background-style uint32 0
+/panels/panel-1/disable-struts false
+/panels/panel-1/enter-opacity uint32 100
+/panels/panel-1/icon-size uint32 0
+/panels/panel-1/leave-opacity uint32 100
+/panels/panel-1/length uint32 100
+/panels/panel-1/length-adjust false
+/panels/panel-1/mode uint32 0
+/panels/panel-1/nrows uint32 1
+/panels/panel-1/plugin-ids [<1>, <2>, <3>, <4>, <5>, <6>, <7>, <14>, <8>, <10>, <11>, <9>, <12>, <13>]
+/panels/panel-1/position 'p=6;x=960;y=13'
+/panels/panel-1/position-locked true
+/panels/panel-1/size uint32 24
+/plugins/clipman/tweaks/never-confirm-history-clear false
+/plugins/plugin-1 'whiskermenu'
+/plugins/plugin-10 'systray'
+/plugins/plugin-10/digital-format '%a %d %b, %R'
+/plugins/plugin-10/hide-new-items false
+/plugins/plugin-10/icon-size 16
+/plugins/plugin-10/known-items [<'Skype1'>, <'discord1'>, <'KDocker'>]
+/plugins/plugin-10/known-legacy-items [<'thunar'>, <'gpick'>, <'pamac-tray'>, <'clipman'>, <'networkmanager applet'>]
+/plugins/plugin-10/menu-is-primary false
+/plugins/plugin-10/show-frame false
+/plugins/plugin-10/single-row false
+/plugins/plugin-10/size-max uint32 16
+/plugins/plugin-10/square-icons true
+/plugins/plugin-10/symbolic-icons true
+/plugins/plugin-11 'separator'
+/plugins/plugin-11/expand false
+/plugins/plugin-11/style uint32 0
+/plugins/plugin-12 'clock'
+/plugins/plugin-12/digital-format '%a %_d %b, %R'
+/plugins/plugin-12/mode uint32 2
+/plugins/plugin-12/show-frame false
+/plugins/plugin-13 'separator'
+/plugins/plugin-13/digital-format '%d %b, %H:%M'
+/plugins/plugin-13/expand false
+/plugins/plugin-13/style uint32 0
+/plugins/plugin-14 'notification-plugin'
+/plugins/plugin-2 'separator'
+/plugins/plugin-2/expand false
+/plugins/plugin-2/style uint32 0
+/plugins/plugin-3 'showdesktop'
+/plugins/plugin-4 'tasklist'
+/plugins/plugin-4/flat-buttons true
+/plugins/plugin-4/grouping uint32 1
+/plugins/plugin-4/include-all-monitors true
+/plugins/plugin-4/include-all-workspaces false
+/plugins/plugin-4/middle-click uint32 0
+/plugins/plugin-4/show-handle true
+/plugins/plugin-4/show-labels true
+/plugins/plugin-4/show-only-minimized false
+/plugins/plugin-4/show-wireframes false
+/plugins/plugin-4/sort-order uint32 1
+/plugins/plugin-4/switch-workspace-on-unminimize true
+/plugins/plugin-4/window-scrolling true
+/plugins/plugin-5 'separator'
+/plugins/plugin-5/expand true
+/plugins/plugin-5/style uint32 0
+/plugins/plugin-6 'pager'
+/plugins/plugin-6/miniature-view true
+/plugins/plugin-6/rows uint32 2
+/plugins/plugin-7 'pulseaudio'
+/plugins/plugin-7/enable-keyboard-shortcuts true
+/plugins/plugin-7/mpris-players 'chromium.instance1827;chromium.instance20483;chromium.instance5625;chromium.instance6012;firefox.instance2375;firefox.instance56039;spotify'
+/plugins/plugin-7/show-frame false
+/plugins/plugin-7/show-notifications true
+/plugins/plugin-7/size-max uint32 16
+/plugins/plugin-7/square-icons true
+/plugins/plugin-8 'power-manager-plugin'
+/plugins/plugin-9 'weather'
+/plugins/plugin-9/cache-max-age 172800
+/plugins/plugin-9/forecast/days 10
+/plugins/plugin-9/forecast/layout 0
+/plugins/plugin-9/location/latitude '52.335847'
+/plugins/plugin-9/location/longitude '9.768806'
+/plugins/plugin-9/location/name 'Döhren, Döhren-Wülfel'
+/plugins/plugin-9/msl 62
+/plugins/plugin-9/offset '+02:00'
+/plugins/plugin-9/power-saving true
+/plugins/plugin-9/round true
+/plugins/plugin-9/scrollbox/animate true
+/plugins/plugin-9/scrollbox/color 'rgba(0,0,0,0)'
+/plugins/plugin-9/scrollbox/lines 1
+/plugins/plugin-9/scrollbox/show true
+/plugins/plugin-9/scrollbox/use-color false
+/plugins/plugin-9/single-row true
+/plugins/plugin-9/theme-dir '/usr/share/xfce4/weather/icons/liquid-dark'
+/plugins/plugin-9/timezone 'Europe/Berlin'
+/plugins/plugin-9/tooltip-style 0
+/plugins/plugin-9/units/altitude 0
+/plugins/plugin-9/units/apparent-temperature 0
+/plugins/plugin-9/units/precipitation 0
+/plugins/plugin-9/units/pressure 0
+/plugins/plugin-9/units/temperature 0
+/plugins/plugin-9/units/windspeed 0
