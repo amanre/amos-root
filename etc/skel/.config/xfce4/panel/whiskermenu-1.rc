@@ -1,5 +1,5 @@
 favorites=xfce4-terminal-emulator.desktop,xfce4-taskmanager.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce4-about.desktop
-recent=org.xfce.PanelProfiles.desktop,xfce-wm-settings.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,xfce-workspaces-settings.desktop,gpick.desktop,kdocker.desktop,plank.desktop
+recent=xfce-settings-manager.desktop,xfce-wm-settings.desktop,org.xfce.PanelProfiles.desktop,xfce-ui-settings.desktop,xfce-workspaces-settings.desktop,gpick.desktop,kdocker.desktop,plank.desktop
 button-icon=/home/amanre/logo.png
 button-single-row=false
 show-button-title=false
