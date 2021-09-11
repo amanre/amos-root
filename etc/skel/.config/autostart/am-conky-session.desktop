@@ -2,12 +2,10 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=dualscreen
+Name=am-conky-session
 Comment=
-Exec=/home/amanre/.screenlayout/dualscreen.sh
-OnlyShowIn=XFCE;
-RunHook=0
+Exec=am-conky-session
 StartupNotify=false
 Terminal=false
-Hidden=false
+Hidden=true
 
