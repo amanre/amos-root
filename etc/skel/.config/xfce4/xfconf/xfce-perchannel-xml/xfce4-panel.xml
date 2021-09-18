@@ -44,17 +44,14 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="clipman" type="empty">
-      <property name="tweaks" type="empty">
-        <property name="never-confirm-history-clear" type="bool" value="false"/>
-      </property>
-    </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
     <property name="plugin-10" type="string" value="systray">
       <property name="digital-format" type="string" value="%a %d %b, %R"/>
       <property name="hide-new-items" type="bool" value="false"/>
       <property name="icon-size" type="int" value="16"/>
       <property name="known-items" type="array">
+        <value type="string" value="Skype1"/>
+        <value type="string" value="discord1"/>
         <value type="string" value="KDocker"/>
       </property>
       <property name="known-legacy-items" type="array">
@@ -115,7 +112,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance2375;firefox.instance56039;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance1827;chromium.instance20483;chromium.instance5625;chromium.instance6012;firefox.instance2375;firefox.instance56039;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
@@ -155,6 +152,11 @@
         <property name="pressure" type="int" value="0"/>
         <property name="temperature" type="int" value="0"/>
         <property name="windspeed" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
     </property>
   </property>
