@@ -3,7 +3,11 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Amos-Cyberpunk-Teel"/>
+<<<<<<< HEAD
     <property name="IconThemeName" type="string" value="arcolinux-candy-beauty"/>
+=======
+    <property name="IconThemeName" type="string" value="Xenlism-Wildfire-FriDay"/>
+>>>>>>> 9fbe04bcf826f558f0ec563121b6fcf2c02b5b99
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -32,8 +36,13 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
+<<<<<<< HEAD
     <property name="CursorThemeName" type="string" value="Bibata-Rainbow-Modern"/>
     <property name="CursorThemeSize" type="int" value="20"/>
+=======
+    <property name="CursorThemeName" type="string" value="ArchCursorComplete"/>
+    <property name="CursorThemeSize" type="int" value="22"/>
+>>>>>>> 9fbe04bcf826f558f0ec563121b6fcf2c02b5b99
     <property name="DecorationLayout" type="empty"/>
     <property name="DialogsUseHeader" type="empty"/>
     <property name="TitlebarMiddleClick" type="empty"/>

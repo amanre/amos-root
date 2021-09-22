@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/usr/share/backgrounds/amos-wallpapers/wallhaven-k716w7_1920x1080.jpg",
+    "wallpaper": "/usr/share/backgrounds/amos-wallpaper-v3/036.jpg",
     "alpha": "100",
 
     "special": {
-        "background": "#100a1e",
-        "foreground": "#a5bedc",
-        "cursor": "#a5bedc"
+        "background": "#010C11",
+        "foreground": "#c2c9f3",
+        "cursor": "#c2c9f3"
     },
     "colors": {
-        "color0": "#100a1e",
-        "color1": "#AE4870",
-        "color2": "#4F519A",
-        "color3": "#5C5697",
-        "color4": "#9E579F",
-        "color5": "#D55DA0",
-        "color6": "#BF6BD0",
-        "color7": "#a5bedc",
-        "color8": "#73859a",
-        "color9": "#AE4870",
-        "color10": "#4F519A",
-        "color11": "#5C5697",
-        "color12": "#9E579F",
-        "color13": "#D55DA0",
-        "color14": "#BF6BD0",
-        "color15": "#a5bedc"
+        "color0": "#010C11",
+        "color1": "#1667DF",
+        "color2": "#1072F1",
+        "color3": "#827EDA",
+        "color4": "#0197B3",
+        "color5": "#05A3D9",
+        "color6": "#3DB1E2",
+        "color7": "#c2c9f3",
+        "color8": "#878caa",
+        "color9": "#1667DF",
+        "color10": "#1072F1",
+        "color11": "#827EDA",
+        "color12": "#0197B3",
+        "color13": "#05A3D9",
+        "color14": "#3DB1E2",
+        "color15": "#c2c9f3"
     }
 }
