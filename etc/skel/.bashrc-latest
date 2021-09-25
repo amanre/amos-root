@@ -163,24 +163,12 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-#dot management at github
-alias a="dots add"          # add files to repo
-alias c="dots commit -m"    # commit files to repo
-alias p="dots push"         # push files to repo
-alias rm="dots rm -r -f"    # remove files from repo
-alias dp="dots pull"
-
-# dot management at gitlab
-alias add="config add"
-alias commit="config commit -m"
-alias pu="config push"
-
 
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
-#iso and version used to install ArcoLinux
+#iso and version used to install AMOS
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #Cleanup orphaned packages
@@ -218,23 +206,13 @@ alias fix-key="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.co
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
-alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
 
-# Github Dots
-alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
-
-#Gitlab Dots
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
-
-#update betterlockscreen images
-alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
