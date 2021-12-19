@@ -342,6 +342,13 @@ alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
 alias nfstab="sudo nano /etc/fstab"
 alias nnsswitch="sudo nano /etc/nsswitch.conf"
 
+#Leftwm aliases
+alias lti="leftwm-theme install"
+alias ltu="leftwm-theme uninstall"
+alias lta="leftwm-theme apply"
+alias ltupd="leftwm-theme update"
+alias ltupg="leftwm-theme upgrade"
+
 # Github Dots
 alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
 
@@ -394,21 +401,21 @@ alias probe="sudo -E hw-probe -all -upload"
 alias rmgitcache="rm -r ~/.cache/git"
 
 #changing the theming of your desktop
-alias theme1='cp -Rf ~/.config/theme/1/* ~'
-alias theme2='cp -Rf ~/.config/theme/2/* ~'
-alias theme3='cp -Rf ~/.config/theme/3/* ~'
-alias theme4='cp -Rf ~/.config/theme/4/* ~'
-alias theme5='cp -Rf ~/.config/theme/5/* ~'
-alias theme6='cp -Rf ~/.config/theme/6/* ~'
-alias theme7='cp -Rf ~/.config/theme/7/* ~'
-alias theme8='cp -Rf ~/.config/theme/8/* ~'
-alias theme9='cp -Rf ~/.config/theme/9/* ~'
-alias theme10='cp -Rf ~/.config/theme/10/* ~'
-alias theme11='cp -Rf ~/.config/theme/11/* ~'
-alias theme12='cp -Rf ~/.config/theme/12/* ~'
-alias theme13='cp -Rf ~/.config/theme/13/* ~'
-alias theme14='cp -Rf ~/.config/theme/14/* ~'
-alias theme15='cp -Rf ~/.config/theme/15/* ~'
+alias theme1='cp -Rf /opt/theme/1/* ~'
+alias theme2='cp -Rf /opt/theme/2/* ~'
+alias theme3='cp -Rf /opt/theme/3/* ~'
+alias theme4='cp -Rf /opt/theme/4/* ~'
+alias theme5='cp -Rf /opt/theme/5/* ~'
+alias theme6='cp -Rf /opt/theme/6/* ~'
+alias theme7='cp -Rf /opt/theme/7/* ~'
+alias theme8='cp -Rf /opt/theme/8/* ~'
+alias theme9='cp -Rf /opt/theme/9/* ~'
+alias theme10='cp -Rf /opt/theme/10/* ~'
+alias theme11='cp -Rf /opt/theme/11/* ~'
+alias theme12='cp -Rf /opt/theme/12/* ~'
+alias theme13='cp -Rf /opt/theme/13/* ~'
+alias theme14='cp -Rf /opt/theme/14/* ~'
+alias theme15='cp -Rf /opt/theme/15/* ~'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

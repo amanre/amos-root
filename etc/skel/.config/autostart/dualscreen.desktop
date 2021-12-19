@@ -4,11 +4,7 @@ Version=0.9.4
 Type=Application
 Name=dualscreen
 Comment=
-<<<<<<< HEAD
 Exec=/home/amanre/.screenlayout/dualscreen.sh
-=======
-Exec=~/.screenlayout/dualscreen.sh
->>>>>>> 9fbe04bcf826f558f0ec563121b6fcf2c02b5b99
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
