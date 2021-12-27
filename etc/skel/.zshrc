@@ -279,6 +279,7 @@ alias version="sed -n 1p /etc/os-release && sed -n 11p /etc/os-release && sed -n
 alias kc='killall conky'
 alias sc='~/.conky/conky-pywal/start_conky.sh'
 alias rc='~/.conky/conky-pywal/refresh_conky.sh'
+
 #hardware info --short
 alias hw="hwinfo --short"
 
@@ -421,6 +422,9 @@ alias theme15='cp -Rf /opt/theme/15/* ~'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (cat ~/.cache/wal/sequences &)
  source ~/.cache/wal/colors-tty.sh
+
+ #Automatizar fondos de pantalla estableciéndolo desde una ruta dinámica vía Gestor de Fondos de Escritorios de XFCE
+registrowallpaper=$(cat ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml | grep 'name="last-image"' | sed -n '9p' | awk '{print $4}' | sed 's/value="//' | sed 's/"//g') ; wallpaper=${registrowallpaper%??}
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
