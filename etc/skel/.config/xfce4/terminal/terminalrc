@@ -1,5 +1,5 @@
 [Configuration]
-BackgroundDarkness=0,720000
+BackgroundDarkness=0,660000
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
@@ -9,7 +9,7 @@ MiscBellUrgent=FALSE
 MiscBordersDefault=TRUE
 MiscCursorBlinks=TRUE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
-MiscDefaultGeometry=98x25
+MiscDefaultGeometry=103x31
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=FALSE
 MiscMouseAutohide=FALSE
@@ -38,5 +38,5 @@ TabActivityColor=#47B35D
 ColorCursorUseDefault=FALSE
 ColorBoldIsBright=FALSE
 ScrollingUnlimited=TRUE
-FontName=Hack Nerd Font Bold 9
+FontName=BitstreamVeraSansMono Nerd Font Bold 9
 

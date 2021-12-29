@@ -306,11 +306,11 @@ POWERLINE_BASH_SELECT=1
 #clear && hfpfetchetch
 EDITOR=vim
 # >>> conda initialize >>
-#neofetch
+neofetch
 #hfetch
 #sfetch
-pfetch
+#pfetch
 ### RANDOM COLOR SCRIPT ###
 
-colorscript random
+#colorscript random
 #colorscript -e illumina
