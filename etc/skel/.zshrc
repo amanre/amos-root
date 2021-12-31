@@ -296,9 +296,6 @@ alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/p
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
-
 #shopt
 #shopt -s autocd # change to named directory
 #shopt -s cdspell # autocorrects cd misspellings
@@ -339,7 +336,6 @@ alias nconfgrub="sudo nano /boot/grub/grub.cfg"
 alias nmkinitcpio="sudo nano /etc/mkinitcpio.conf"
 alias nmirrorlist="sudo nano /etc/pacman.d/mirrorlist"
 alias nsddm="sudo nano /etc/sddm.conf"
-alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
 alias nfstab="sudo nano /etc/fstab"
 alias nnsswitch="sudo nano /etc/nsswitch.conf"
 
@@ -379,21 +375,16 @@ alias fix-key="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.co
 
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
-alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
-#iso and version used to install ArcoLinux
+#iso and version used to install AmOs
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
-
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
-alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
@@ -401,22 +392,6 @@ alias probe="sudo -E hw-probe -all -upload"
 #remove
 alias rmgitcache="rm -r ~/.cache/git"
 
-#changing the theming of your desktop
-alias theme1='cp -Rf /opt/theme/1/* ~'
-alias theme2='cp -Rf /opt/theme/2/* ~'
-alias theme3='cp -Rf /opt/theme/3/* ~'
-alias theme4='cp -Rf /opt/theme/4/* ~'
-alias theme5='cp -Rf /opt/theme/5/* ~'
-alias theme6='cp -Rf /opt/theme/6/* ~'
-alias theme7='cp -Rf /opt/theme/7/* ~'
-alias theme8='cp -Rf /opt/theme/8/* ~'
-alias theme9='cp -Rf /opt/theme/9/* ~'
-alias theme10='cp -Rf /opt/theme/10/* ~'
-alias theme11='cp -Rf /opt/theme/11/* ~'
-alias theme12='cp -Rf /opt/theme/12/* ~'
-alias theme13='cp -Rf /opt/theme/13/* ~'
-alias theme14='cp -Rf /opt/theme/14/* ~'
-alias theme15='cp -Rf /opt/theme/15/* ~'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -439,23 +414,3 @@ neofetch
 #colorscript random
 #colorscript -e illumina
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/amanre/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/amanre/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/amanre/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/amanre/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# Start Jupyter Notebook
-alias jn='jupyter-notebook'
-
-# Start Anaconda Navigator
-alias an='anaconda-navigator'
