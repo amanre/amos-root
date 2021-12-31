@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 gtk-theme-name="amos-Cyberpunk-Cerulean"
-gtk-icon-theme-name="arcolinux-candy-beauty"
+gtk-icon-theme-name="Sweet-Blue-Filled"
 gtk-font-name="Cantarell 11"
 gtk-cursor-theme-name="Bibata-Modern-Pink"
 gtk-cursor-theme-size=0
