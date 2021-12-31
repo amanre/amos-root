@@ -1,5 +1,5 @@
 favorites=xfce4-terminal-emulator.desktop,xfce4-taskmanager.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce4-about.desktop,gpick.desktop
-recent=org.xfce.PanelProfiles.desktop,grub-customizer.desktop,xfce-settings-manager.desktop,gpick.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,xfce-workspaces-settings.desktop,kdocker.desktop,plank.desktop
+recent=xfce4-screenshooter.desktop,xfce-settings-manager.desktop,org.bleachbit.BleachBit.desktop,org.xfce.PanelProfiles.desktop,grub-customizer.desktop,gpick.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,xfce-workspaces-settings.desktop,kdocker.desktop
 button-title=AmOs
 button-icon=/home/amanre/logo.png
 button-single-row=true
