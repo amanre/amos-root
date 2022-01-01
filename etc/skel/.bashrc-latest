@@ -291,15 +291,11 @@ ex ()
 
 (cat ~/.cache/wal/sequences &)
  source ~/.cache/wal/colors-tty.sh
-
- powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
-#clear && hfpfetchetch
+ 
+clear && hfpfetchetch
 EDITOR=vim
 # >>> conda initialize >>
-neofetch
+#neofetch
 #hfetch
 #sfetch
 #pfetch
