@@ -292,10 +292,10 @@ ex ()
 (cat ~/.cache/wal/sequences &)
  source ~/.cache/wal/colors-tty.sh
  
-clear && hfpfetchetch
+#clear && hfpfetchetch
 EDITOR=vim
 # >>> conda initialize >>
-#neofetch
+neofetch
 #hfetch
 #sfetch
 #pfetch

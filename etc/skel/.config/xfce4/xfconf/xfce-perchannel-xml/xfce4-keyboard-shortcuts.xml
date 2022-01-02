@@ -100,11 +100,9 @@
       <property name="&lt;Super&gt;F12" type="string" value="rofi -show drun -fullscreen"/>
       <property name="&lt;Super&gt;F11" type="string" value="rofi -show drun"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;w" type="string" value="/home/amanre/.bin/dmenu.sh"/>
-      <property name="&lt;Super&gt;x" type="string" value="arcolinux-logout"/>
-    </property>
-  </property>
-  <property name="xfwm4" type="empty">
-    <property name="default" type="empty">
+      </property>
+      <property name="xfwm4" type="empty">
+      <property name="default" type="empty">
       <property name="&lt;Alt&gt;Insert" type="empty"/>
       <property name="Escape" type="empty"/>
       <property name="Left" type="empty"/>
