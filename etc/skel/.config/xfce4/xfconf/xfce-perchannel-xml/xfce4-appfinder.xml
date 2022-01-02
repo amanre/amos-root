@@ -2,8 +2,8 @@
 
 <channel name="xfce4-appfinder" version="1.0">
   <property name="last" type="empty">
-    <property name="window-height" type="int" value="1028"/>
-    <property name="window-width" type="int" value="1908"/>
+    <property name="window-height" type="int" value="567"/>
+    <property name="window-width" type="int" value="1478"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
 </channel>
