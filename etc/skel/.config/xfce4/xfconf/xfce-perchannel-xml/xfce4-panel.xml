@@ -85,7 +85,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance111916;chromium.instance114724;chromium.instance12271;chromium.instance124124;chromium.instance133135;chromium.instance153094;chromium.instance16201;chromium.instance167828;chromium.instance189751;chromium.instance2004;chromium.instance206331;chromium.instance210063;chromium.instance22478;chromium.instance2270;chromium.instance23821;chromium.instance240782;chromium.instance249130;chromium.instance2510;chromium.instance2670;chromium.instance3040;chromium.instance33988;chromium.instance3416;chromium.instance3450;chromium.instance34683;chromium.instance362536;chromium.instance37089;chromium.instance48711;chromium.instance5112;chromium.instance51306;chromium.instance5648;chromium.instance58177;chromium.instance6359;chromium.instance64440;chromium.instance65845;chromium.instance68974;chromium.instance8254;chromium.instance8297;chromium.instance92151;chromium.instance9895;firefox.instance88398;pragha;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance111916;chromium.instance114356;chromium.instance114724;chromium.instance12271;chromium.instance124124;chromium.instance133135;chromium.instance153094;chromium.instance16201;chromium.instance167828;chromium.instance169316;chromium.instance189751;chromium.instance2004;chromium.instance206331;chromium.instance210063;chromium.instance22478;chromium.instance2270;chromium.instance23821;chromium.instance240782;chromium.instance249130;chromium.instance2510;chromium.instance2670;chromium.instance3040;chromium.instance3160;chromium.instance33988;chromium.instance3416;chromium.instance3450;chromium.instance34683;chromium.instance362536;chromium.instance37089;chromium.instance48711;chromium.instance5112;chromium.instance51306;chromium.instance5648;chromium.instance58177;chromium.instance6359;chromium.instance64440;chromium.instance65845;chromium.instance68974;chromium.instance7368;chromium.instance8254;chromium.instance8297;chromium.instance92151;chromium.instance9895;firefox.instance88398;pragha;spotify;vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -167,5 +167,10 @@
     <property name="plugin-4" type="string" value="netload"/>
     <property name="plugin-7" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-15" type="string" value="xfce4-mpc-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
   </property>
 </channel>
