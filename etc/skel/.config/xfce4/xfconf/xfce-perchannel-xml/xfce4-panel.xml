@@ -130,7 +130,6 @@
       </property>
     </property>
     <property name="plugin-16" type="string" value="xfce4-mpc-plugin"/>
-    <property name="plugin-17" type="string" value="genmon"/>
     <property name="plugin-18" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
