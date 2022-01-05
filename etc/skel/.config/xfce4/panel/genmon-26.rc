@@ -1,4 +1,4 @@
-Command=/home/amanre/.bin/xfce4-genmon-scripts/cpu.sh
+Command=~/.bin/xfce4-genmon-scripts/cpu.sh
 UseLabel=0
 Text=(genmon)
 UpdatePeriod=30000
