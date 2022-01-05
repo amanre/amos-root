@@ -160,11 +160,8 @@
     <property name="plugin-25" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-26" type="string" value="genmon"/>
-    <property name="plugin-27" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-28" type="string" value="genmon"/>
     <property name="plugin-29" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
