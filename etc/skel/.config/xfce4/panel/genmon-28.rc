@@ -1,0 +1,6 @@
+Command=/home/amanre/.bin/xfce4-genmon-scripts/kernel.sh
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=30000
+Font=Noto Sans 10
+
