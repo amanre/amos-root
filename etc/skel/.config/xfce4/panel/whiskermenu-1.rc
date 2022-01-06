@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=org.xfce.PanelProfiles.desktop,gimp.desktop,org.inkscape.Inkscape.desktop,gpick.desktop
+recent=kshutdown.desktop,gtk-lshw.desktop,kdocker.desktop,gpick.desktop,org.xfce.PanelProfiles.desktop,gimp.desktop,org.inkscape.Inkscape.desktop
 button-title=AmOs
 button-icon=/usr/share/icons/logo.png
 button-single-row=false

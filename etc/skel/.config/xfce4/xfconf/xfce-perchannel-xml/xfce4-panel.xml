@@ -26,8 +26,11 @@
         <value type="int" value="18"/>
         <value type="int" value="5"/>
         <value type="int" value="30"/>
-        <value type="int" value="16"/>
+        <value type="int" value="32"/>
         <value type="int" value="19"/>
+        <value type="int" value="34"/>
+        <value type="int" value="31"/>
+        <value type="int" value="33"/>
         <value type="int" value="28"/>
         <value type="int" value="29"/>
         <value type="int" value="26"/>
@@ -46,7 +49,7 @@
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="3"/>
+        <value type="int" value="16"/>
       </property>
       <property name="position" type="string" value="p=6;x=960;y=13"/>
       <property name="position-locked" type="bool" value="true"/>
@@ -60,6 +63,8 @@
       <property name="hide-new-items" type="bool" value="false"/>
       <property name="icon-size" type="int" value="16"/>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="KDocker"/>
         <value type="string" value="discord1"/>
       </property>
       <property name="known-legacy-items" type="array">
@@ -129,7 +134,7 @@
         <property name="label0" type="int" value="3"/>
       </property>
     </property>
-    <property name="plugin-16" type="string" value="xfce4-mpc-plugin"/>
+    <property name="plugin-17" type="string" value="genmon"/>
     <property name="plugin-18" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -159,26 +164,13 @@
     <property name="plugin-25" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="style" type="uint" value="0"/>
+    <property name="plugin-26" type="string" value="genmon"/>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-3" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
+    <property name="plugin-28" type="string" value="genmon"/>
+    <property name="plugin-29" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-4" type="string" value="tasklist">
       <property name="flat-buttons" type="bool" value="true"/>
@@ -204,7 +196,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance21453;chromium.instance23952;chromium.instance30079;chromium.instance62279;chromium.instance98638;pragha"/>
+      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance1865;chromium.instance21453;chromium.instance23952;chromium.instance30079;chromium.instance43129;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance98638;pragha;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
@@ -221,5 +213,16 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-31" type="string" value="genmon"/>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-33" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-34" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="genmon"/>
   </property>
 </channel>
