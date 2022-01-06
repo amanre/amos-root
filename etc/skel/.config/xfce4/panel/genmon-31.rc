@@ -1,4 +1,4 @@
-Command=~/$USER/.bin/xfce4-genmon-scripts/spotify-panel.sh
+Command=/etc/skel/.config/xfce4/genmon/spotify-panel.sh
 UseLabel=0
 Text=(genmon)
 UpdatePeriod=30000
