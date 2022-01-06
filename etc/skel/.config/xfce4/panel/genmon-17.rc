@@ -1,4 +1,4 @@
-Command=/etc/skel/.config/xfce4/genmon/power-panel.sh
+Command=/etc/skel/.config/xfce4/genmon/memory-panel.sh
 UseLabel=0
 Text=(genmon)
 UpdatePeriod=30000
