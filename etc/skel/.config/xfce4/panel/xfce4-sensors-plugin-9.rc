@@ -9,7 +9,7 @@ Number=0
 [Chip0_Feature0]
 Address=0
 Name=Tctl
-Color=#C2547A
+Color=#99217B
 Show=true
 Min=0,00
 Max=80,00
