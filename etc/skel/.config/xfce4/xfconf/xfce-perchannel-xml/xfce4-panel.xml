@@ -7,7 +7,13 @@
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.011765"/>
+        <value type="double" value="0.062745"/>
+        <value type="double" value="0.200000"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="20"/>
@@ -41,6 +47,8 @@
         <value type="int" value="21"/>
         <value type="int" value="9"/>
         <value type="int" value="22"/>
+        <value type="int" value="35"/>
+        <value type="int" value="3"/>
         <value type="int" value="7"/>
         <value type="int" value="14"/>
         <value type="int" value="8"/>
@@ -53,16 +61,22 @@
       </property>
       <property name="position" type="string" value="p=6;x=960;y=13"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="28"/>
+      <property name="size" type="uint" value="30"/>
     </property>
   </property>
   <property name="plugins" type="empty">
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
     <property name="plugin-10" type="string" value="systray">
       <property name="digital-format" type="string" value="%a %d %b, %R"/>
       <property name="hide-new-items" type="bool" value="false"/>
       <property name="icon-size" type="int" value="16"/>
       <property name="known-items" type="array">
+        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="steam"/>
         <value type="string" value="KDocker"/>
         <value type="string" value="discord1"/>
@@ -113,7 +127,7 @@
       <property name="round" type="bool" value="true"/>
       <property name="scrollbox" type="empty">
         <property name="animate" type="bool" value="true"/>
-        <property name="color" type="string" value="rgb(224,134,230)"/>
+        <property name="color" type="string" value="rgb(153,33,123)"/>
         <property name="lines" type="int" value="1"/>
         <property name="show" type="bool" value="true"/>
         <property name="use-color" type="bool" value="true"/>
@@ -134,6 +148,7 @@
         <property name="label0" type="int" value="3"/>
       </property>
     </property>
+    <property name="plugin-16" type="string" value="genmon"/>
     <property name="plugin-17" type="string" value="genmon"/>
     <property name="plugin-18" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -172,6 +187,28 @@
     <property name="plugin-29" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-30" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-31" type="string" value="genmon"/>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-33" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-34" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-35" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
     <property name="plugin-4" type="string" value="tasklist">
       <property name="flat-buttons" type="bool" value="true"/>
       <property name="grouping" type="uint" value="1"/>
@@ -196,7 +233,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance1865;chromium.instance21453;chromium.instance23952;chromium.instance30079;chromium.instance43129;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance98638;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance110751;chromium.instance11912;chromium.instance1711;chromium.instance1865;chromium.instance1939;chromium.instance21453;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance27612;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance66616;chromium.instance98638;pragha;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
@@ -204,25 +241,5 @@
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="xfce4-sensors-plugin"/>
-    <property name="clipman" type="empty">
-      <property name="tweaks" type="empty">
-        <property name="never-confirm-history-clear" type="bool" value="true"/>
-      </property>
-    </property>
-    <property name="plugin-30" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-31" type="string" value="genmon"/>
-    <property name="plugin-32" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-33" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-34" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-16" type="string" value="genmon"/>
   </property>
 </channel>
