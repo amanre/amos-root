@@ -8,6 +8,8 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Insert the absolute path of the icon
 # Recommended size is 24x24 px
 readonly ICON="${DIR}/icons/memory/memory.png"
+#readonly ICON="${DIR}/icons/memory/memory-green.png"
+#readonly ICON="${DIR}/icons/memory/memory-lila.png"
 
 # Calculate RAM values
 readonly TOTAL=$(free -b | awk '/^[Mm]em/{$2 = $2 / 1073741824; printf "%.2f", $2}')
