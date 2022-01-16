@@ -10,7 +10,7 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 #readonly ICON="${DIR}/icons/kernel/linux.png"
 #readonly ICON="${DIR}/icons/kernel/linux-green.png"
 #readonly ICON="${DIR}/icons/kernel/linux-lila.png"
- readonly ICON="${DIR}/icons/kernel/linux-crimson.png"
+readonly ICON="${DIR}/icons/kernel/linux-crimson.png"
 # Kernel values
 readonly KERNEL=$(uname -r)
 readonly UNAME=$(uname -a)

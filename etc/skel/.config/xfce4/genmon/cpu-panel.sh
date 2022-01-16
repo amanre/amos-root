@@ -11,7 +11,7 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 #readonly ICON="${DIR}/icons/cpu/chip.png"
 #readonly ICON="${DIR}/icons/cpu/chip-green.png"
 #readonly ICON="${DIR}/icons/cpu/chip-lila.png"
- readonly ICON="${DIR}/icons/cpu/chip-crimson.png"
+readonly ICON="${DIR}/icons/cpu/chip-crimson.png"
 
 # Array of available logical CPUs
 declare -r CPU_ARRAY=($(awk '/MHz/{print $4}' /proc/cpuinfo | cut -f1 -d"."))

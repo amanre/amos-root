@@ -10,7 +10,7 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 #readonly ICON="${DIR}/icons/music/spotify.png"
 #readonly ICON="${DIR}/icons/music/spotify-green.png"
 #readonly ICON="${DIR}/icons/music/spotify-lila.png"
- readonly ICON="${DIR}/icons/music/spotify-crimson.png"
+readonly ICON="${DIR}/icons/music/spotify-crimson.png"
 if pidof spotify &> /dev/null; then
   # Spotify song's info
   readonly ARTIST=$(bash "${DIR}/spotify.sh" artist | sed 's/&/&#38;/g')
