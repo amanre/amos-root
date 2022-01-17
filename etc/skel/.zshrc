@@ -364,6 +364,23 @@ alias add="config add"
 alias commit="config commit -m"
 alias pu="config push"
 
+#changing the theming of your desktop
+alias theme1='cp -Rf /opt/theme/1/* ~'
+alias theme2='cp -Rf /opt/theme/2/* ~'
+alias theme3='cp -Rf /opt/theme/3/* ~'
+alias theme4='cp -Rf /opt/theme/4/* ~'
+alias theme5='cp -Rf /opt/theme/5/* ~'
+alias theme6='cp -Rf /opt/theme/6/* ~'
+alias theme7='cp -Rf /opt/theme/7/* ~'
+alias theme8='cp -Rf /opt/theme/8/* ~'
+alias theme9='cp -Rf /opt/theme/9/* ~'
+alias theme10='cp -Rf /opt/theme/10/* ~'
+alias theme11='cp -Rf /opt/theme/11/* ~'
+alias theme12='cp -Rf /opt/theme/12/* ~'
+alias theme13='cp -Rf /opt/theme/13/* ~'
+alias theme14='cp -Rf /opt/theme/14/* ~'
+alias theme15='cp -Rf /opt/theme/15/* ~'
+
 #gpg
 #verify signature for isos
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"

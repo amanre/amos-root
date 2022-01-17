@@ -8,6 +8,7 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Insert the absolute path of the icon
 # Recommended size is 24x24 px
 readonly ICON="${DIR}/icons/power/power.png"
+
 # Uncomment the below and comment out the above if you prefer the apple logo instead
 #readonly ICON="${DIR}/icons/power/apple.png"
 

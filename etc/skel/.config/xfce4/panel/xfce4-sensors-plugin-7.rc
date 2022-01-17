@@ -9,7 +9,7 @@ Number=0
 [Chip0_Feature0]
 Address=0
 Name=Tctl
-Color=#E287E6
+Color=#980A16
 Show=true
 Min=0,00
 Max=80,00
@@ -17,4 +17,3 @@ Max=80,00
 [Chip1]
 Name=ACPI
 Number=1
-
