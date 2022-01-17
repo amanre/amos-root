@@ -2,8 +2,8 @@ Use_Label=true
 Show_Values=true
 Show_Bars=false
 Colorize_Values=true
-Color_In=rgb(28,113,216)
-Color_Out=rgb(192,97,203)
+Color_In=rgb(196, 78, 100)
+Color_Out=rgb(196, 78, 100)
 Text=Net
 Network_Device=enp37s0
 Max_In=4096
@@ -11,4 +11,3 @@ Max_Out=4096
 Auto_Max=true
 Update_Interval=250
 Values_As_Bits=true
-
