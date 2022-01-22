@@ -8,16 +8,16 @@
     <property name="panel-1" type="empty">
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.011765"/>
-        <value type="double" value="0.062745"/>
-        <value type="double" value="0.200000"/>
+        <value type="double" value="0.207843"/>
+        <value type="double" value="0.517647"/>
+        <value type="double" value="0.894118"/>
         <value type="double" value="1.000000"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
-      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="49"/>
       <property name="icon-size" type="uint" value="20"/>
-      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="49"/>
       <property name="length" type="uint" value="100"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
@@ -82,6 +82,8 @@
         <value type="string" value="discord1"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="grsync"/>
+        <value type="string" value="discord"/>
         <value type="string" value="pragha music player"/>
         <value type="string" value="xfce terminal"/>
         <value type="string" value="thunar"/>
@@ -110,44 +112,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="notification-plugin"/>
-    <property name="plugin-15" type="string" value="weather">
-      <property name="cache-max-age" type="int" value="172800"/>
-      <property name="forecast" type="empty">
-        <property name="days" type="int" value="10"/>
-        <property name="layout" type="int" value="1"/>
-      </property>
-      <property name="location" type="empty">
-        <property name="latitude" type="string" value="52.335847"/>
-        <property name="longitude" type="string" value="9.768806"/>
-        <property name="name" type="string" value="Döhren, Döhren-Wülfel"/>
-      </property>
-      <property name="msl" type="int" value="62"/>
-      <property name="offset" type="string" value="+01:00"/>
-      <property name="power-saving" type="bool" value="true"/>
-      <property name="round" type="bool" value="true"/>
-      <property name="scrollbox" type="empty">
-        <property name="animate" type="bool" value="true"/>
-        <property name="color" type="string" value="rgb(153,33,123)"/>
-        <property name="lines" type="int" value="1"/>
-        <property name="show" type="bool" value="true"/>
-        <property name="use-color" type="bool" value="true"/>
-      </property>
-      <property name="single-row" type="bool" value="true"/>
-      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
-      <property name="timezone" type="string" value="Europe/Berlin"/>
-      <property name="tooltip-style" type="int" value="1"/>
-      <property name="units" type="empty">
-        <property name="altitude" type="int" value="0"/>
-        <property name="apparent-temperature" type="int" value="0"/>
-        <property name="precipitation" type="int" value="0"/>
-        <property name="pressure" type="int" value="0"/>
-        <property name="temperature" type="int" value="0"/>
-        <property name="windspeed" type="int" value="0"/>
-      </property>
-      <property name="labels" type="empty">
-        <property name="label0" type="int" value="3"/>
-      </property>
-    </property>
     <property name="plugin-16" type="string" value="genmon"/>
     <property name="plugin-17" type="string" value="genmon"/>
     <property name="plugin-18" type="string" value="separator">
@@ -233,7 +197,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance110751;chromium.instance11912;chromium.instance1711;chromium.instance1865;chromium.instance1939;chromium.instance21453;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance27612;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance66616;chromium.instance98638;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance10033;chromium.instance10752;chromium.instance110163;chromium.instance110751;chromium.instance11912;chromium.instance14624;chromium.instance1711;chromium.instance1791;chromium.instance1865;chromium.instance1939;chromium.instance2131;chromium.instance21453;chromium.instance2152;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance26297;chromium.instance27612;chromium.instance27637;chromium.instance28796;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance66616;chromium.instance9360;chromium.instance98638;pragha;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
@@ -241,5 +205,43 @@
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-15" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Laatzen, Germany"/>
+        <property name="latitude" type="string" value="52.313600"/>
+        <property name="longitude" type="string" value="9.801600"/>
+      </property>
+      <property name="msl" type="int" value="66"/>
+      <property name="timezone" type="string" value="Europe/Berlin"/>
+      <property name="offset" type="string" value="+01:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="10"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
   </property>
 </channel>

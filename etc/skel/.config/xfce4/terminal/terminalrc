@@ -1,5 +1,5 @@
 [Configuration]
-BackgroundDarkness=0,900000
+BackgroundDarkness=0,800000
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
@@ -39,5 +39,4 @@ ColorCursorUseDefault=FALSE
 ColorBoldIsBright=FALSE
 ScrollingUnlimited=TRUE
 FontName=BitstreamVeraSansMono Nerd Font Bold 8
-FontUseSystem=TRUE
 

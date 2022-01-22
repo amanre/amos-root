@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="amos-Cyberpunk-future"/>
-    <property name="IconThemeName" type="string" value="Tela-circle-purple-dark"/>
+    <property name="ThemeName" type="string" value="AMOS8"/>
+    <property name="IconThemeName" type="string" value="Sardi-Arc"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>

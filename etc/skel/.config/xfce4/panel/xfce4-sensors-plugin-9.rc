@@ -1,5 +1,5 @@
 [General]
-Preferred_Height=407
+Preferred_Height=434
 Number_Chips=2
 
 [Chip0]
@@ -9,7 +9,7 @@ Number=0
 [Chip0_Feature0]
 Address=0
 Name=Tctl
-Color=#980A16
+Color=#3CA2CE
 Show=true
 Min=0,00
 Max=80,00
@@ -17,3 +17,4 @@ Max=80,00
 [Chip1]
 Name=ACPI
 Number=1
+
