@@ -8,7 +8,8 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Insert the absolute path of the icon
 # Recommended size is 24x24 px
 readonly ICON="${DIR}/icons/music/spotify.png"
-
+#readonly ICON="${DIR}/icons/music/spotify-green.png"
+#readonly ICON="${DIR}/icons/music/spotify-lila.png"
 if pidof spotify &> /dev/null; then
   # Spotify song's info
   readonly ARTIST=$(bash "${DIR}/spotify.sh" artist | sed 's/&/&#38;/g')

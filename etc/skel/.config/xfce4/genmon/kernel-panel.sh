@@ -8,6 +8,8 @@ readonly DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Insert the absolute path of the icon
 # Recommended size is 24x24 px
 readonly ICON="${DIR}/icons/kernel/linux.png"
+#readonly ICON="${DIR}/icons/kernel/linux-green.png"
+#readonly ICON="${DIR}/icons/kernel/linux-lila.png"
 
 # Kernel values
 readonly KERNEL=$(uname -r)
