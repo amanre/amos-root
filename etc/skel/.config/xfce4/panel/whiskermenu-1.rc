@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,sddm-config-editor.desktop,gpick.desktop
-recent=xfce-wm-settings.desktop,gpick.desktop,sddm-config-editor.desktop,kdocker.desktop,thunar-bulk-rename.desktop,spotify.desktop,filezilla.desktop,grsync.desktop,bitwarden.desktop,grub-customizer.desktop
+recent=gpick.desktop,kdocker.desktop,xfce-wm-settings.desktop,sddm-config-editor.desktop,thunar-bulk-rename.desktop,spotify.desktop,filezilla.desktop,grsync.desktop,bitwarden.desktop,grub-customizer.desktop
 button-title=Menu
 button-icon=/usr/share/pixmaps/logo-white.png
 button-single-row=false
