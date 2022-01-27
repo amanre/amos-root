@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=2
+Comment=2 Style for XFCE Desktop
+Exec=/usr/share/amos/styles/2.sh
+Icon=gtk-theme-config
+Path=
+Terminal=false
+StartupNotify=false
