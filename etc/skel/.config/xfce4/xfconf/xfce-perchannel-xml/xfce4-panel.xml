@@ -199,6 +199,16 @@
     <property name="plugin-31" type="string" value="genmon"/>
     <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-32" type="string" value="launcher">
+      <property name="disable-tooltips" type="bool" value="true"/>
+      <property name="show-label" type="bool" value="true"/>
+      <property name="items" type="array">
+        <value type="string" value="16434580301.desktop"/>
+        <value type="string" value="16434581492.desktop"/>
+        <value type="string" value="16434582803.desktop"/>
+        <value type="string" value="16434584054.desktop"/>
+        <value type="string" value="16434584985.desktop"/>
+      </property>
     <property name="plugin-33" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -241,17 +251,7 @@
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="xfce4-sensors-plugin"/>
-    <property name="plugin-32" type="string" value="launcher">
-      <property name="disable-tooltips" type="bool" value="true"/>
-      <property name="show-label" type="bool" value="true"/>
-      <property name="items" type="array">
-        <value type="string" value="16434580301.desktop"/>
-        <value type="string" value="16434581492.desktop"/>
-        <value type="string" value="16434582803.desktop"/>
-        <value type="string" value="16434584054.desktop"/>
-        <value type="string" value="16434584985.desktop"/>
-      </property>
-      <property name="move-first" type="bool" value="true"/>
+    <property name="move-first" type="bool" value="true"/>
     </property>
   </property>
 </channel>
