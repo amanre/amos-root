@@ -197,8 +197,7 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-31" type="string" value="genmon"/>
-    <property name="plugin-32" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-33" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
