@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reddune
+Comment=1 Style for XFCE Desktop
+Exec=/usr/share/amos/styles/Reddune.sh
+Icon=gtk-theme-config
+Path=
+Terminal=false
+StartupNotify=false
