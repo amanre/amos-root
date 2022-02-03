@@ -13,11 +13,11 @@
         <value type="double" value="0.200000"/>
         <value type="double" value="1.000000"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
-      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="70"/>
       <property name="icon-size" type="uint" value="20"/>
-      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="70"/>
       <property name="length" type="uint" value="100"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
@@ -83,6 +83,8 @@
         <value type="string" value="discord1"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="grsync"/>
+        <value type="string" value="discord"/>
         <value type="string" value="pragha music player"/>
         <value type="string" value="xfce terminal"/>
         <value type="string" value="thunar"/>
@@ -197,18 +199,9 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-31" type="string" value="genmon"/>
-    <property name="style" type="uint" value="0"/>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-32" type="string" value="launcher">
-      <property name="disable-tooltips" type="bool" value="true"/>
-      <property name="show-label" type="bool" value="true"/>
-      <property name="items" type="array">
-        <value type="string" value="16434580301.desktop"/>
-        <value type="string" value="16434581492.desktop"/>
-        <value type="string" value="16434582803.desktop"/>
-        <value type="string" value="16434584054.desktop"/>
-        <value type="string" value="16434584985.desktop"/>
-      </property>
     <property name="plugin-33" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -218,6 +211,18 @@
     <property name="plugin-35" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-36" type="string" value="launcher">
+      <property name="disable-tooltips" type="bool" value="true"/>
+      <property name="items" type="array">
+        <value type="string" value="16434580301.desktop"/>
+        <value type="string" value="16434581492.desktop"/>
+        <value type="string" value="16434582803.desktop"/>
+        <value type="string" value="16434584054.desktop"/>
+        <value type="string" value="16434584985.desktop"/>
+      </property>
+      <property name="move-first" type="bool" value="true"/>
+      <property name="show-label" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="tasklist">
       <property name="flat-buttons" type="bool" value="true"/>
@@ -243,7 +248,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance110163;chromium.instance110751;chromium.instance11912;chromium.instance1711;chromium.instance1865;chromium.instance1939;chromium.instance21453;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance27612;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance62279;chromium.instance66616;chromium.instance98638;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance10033;chromium.instance10752;chromium.instance110163;chromium.instance110751;chromium.instance118013;chromium.instance11912;chromium.instance14624;chromium.instance1711;chromium.instance1791;chromium.instance1865;chromium.instance192147;chromium.instance1939;chromium.instance209611;chromium.instance2131;chromium.instance21453;chromium.instance2152;chromium.instance218912;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance26297;chromium.instance27612;chromium.instance27761;chromium.instance28796;chromium.instance29742;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance61385;chromium.instance62279;chromium.instance66616;chromium.instance69929;chromium.instance71640;chromium.instance9360;chromium.instance98638;pragha;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
@@ -251,7 +256,5 @@
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="xfce4-sensors-plugin"/>
-    <property name="move-first" type="bool" value="true"/>
-    </property>
   </property>
 </channel>

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Apple 
-Comment=Nordic Style for XFCE Desktop
+Name=Apple
+Comment=Apple
 Exec=/usr/share/amos/styles/Apple.sh
-Icon=gtk-theme-config
+Icon=/usr/share/icons/AmOs/actions/24/channelmixer.svg
 Path=
 Terminal=false
 StartupNotify=false

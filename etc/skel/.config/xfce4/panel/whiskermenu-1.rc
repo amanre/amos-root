@@ -1,11 +1,7 @@
-favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=gpick.desktop,grub-customizer.desktop,imagewriter.desktop,org.gnome.Nautilus.desktop,gufw.desktop,org.gnome.meld.desktop,pragha.desktop,kshutdown.desktop,gtk-lshw.desktop,kdocker.desktop
+favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,sddm-config-editor.desktop,gpick.desktop
+recent=arandr.desktop,sddm-config-editor.desktop,xfce-wm-settings.desktop,gpick.desktop,kdocker.desktop,thunar-bulk-rename.desktop,filezilla.desktop,grsync.desktop
 button-title=Menu
-<<<<<<< HEAD
 button-icon=/usr/share/pixmaps/logo-white.png
-=======
-button-icon=/usr/share/pixmaps/logo-white.png
->>>>>>> 7c9edbfa68517c303f4942d645fa65a9bc017d3b
 button-single-row=false
 show-button-title=true
 show-button-icon=true

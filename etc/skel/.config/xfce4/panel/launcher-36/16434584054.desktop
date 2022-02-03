@@ -2,9 +2,9 @@
 Version=1.0
 Type=Application
 Name=Reddune
-Comment=1 Style for XFCE Desktop
+Comment=Reddune
 Exec=/usr/share/amos/styles/Reddune.sh
-Icon=gtk-theme-config
+Icon=/usr/share/icons/AmOs/actions/24/channelmixer.svg
 Path=
 Terminal=false
 StartupNotify=false
