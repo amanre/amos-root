@@ -60,7 +60,7 @@
         <value type="int" value="13"/>
         <value type="int" value="16"/>
       </property>
-      <property name="position" type="string" value="p=8;x=960;y=1064"/>
+      <property name="position" type="string" value="p=6;x=960;y=16"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="30"/>
     </property>
@@ -215,12 +215,12 @@
     <property name="plugin-36" type="string" value="launcher">
       <property name="disable-tooltips" type="bool" value="true"/>
       <property name="items" type="array">
+        <value type="string" value="16434584990.desktop"/>
         <value type="string" value="16434580301.desktop"/>
         <value type="string" value="16434581492.desktop"/>
         <value type="string" value="16434582803.desktop"/>
         <value type="string" value="16434584054.desktop"/>
         <value type="string" value="16434584985.desktop"/>
-        <value type="string" value="16434584990.desktop"/>
         <value type="string" value="16434584995.desktop"/>
       </property>
       <property name="move-first" type="bool" value="true"/>
@@ -250,7 +250,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance10033;chromium.instance10752;chromium.instance110163;chromium.instance110751;chromium.instance118013;chromium.instance11912;chromium.instance14624;chromium.instance1711;chromium.instance1791;chromium.instance1865;chromium.instance192147;chromium.instance1939;chromium.instance209611;chromium.instance2131;chromium.instance21453;chromium.instance2152;chromium.instance218912;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance26297;chromium.instance27612;chromium.instance27761;chromium.instance28796;chromium.instance29742;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance61385;chromium.instance62279;chromium.instance66616;chromium.instance69929;chromium.instance71640;chromium.instance9360;chromium.instance98638;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance10033;chromium.instance10752;chromium.instance110163;chromium.instance110751;chromium.instance118013;chromium.instance11912;chromium.instance14624;chromium.instance1711;chromium.instance1791;chromium.instance1865;chromium.instance192147;chromium.instance1939;chromium.instance20320;chromium.instance209611;chromium.instance2131;chromium.instance21453;chromium.instance2152;chromium.instance218912;chromium.instance2196;chromium.instance2316;chromium.instance23952;chromium.instance2547;chromium.instance26297;chromium.instance27612;chromium.instance27761;chromium.instance28796;chromium.instance29742;chromium.instance30079;chromium.instance31785;chromium.instance43129;chromium.instance44463;chromium.instance4486;chromium.instance55572;chromium.instance57052;chromium.instance61385;chromium.instance62279;chromium.instance66616;chromium.instance69929;chromium.instance71640;chromium.instance9360;chromium.instance98638;pragha;spotify"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="size-max" type="uint" value="16"/>
