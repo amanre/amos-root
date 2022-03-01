@@ -225,6 +225,7 @@
         <value type="string" value="16434584996.desktop"/>
         <value type="string" value="16434584997.desktop"/>
         <value type="string" value="16434584998.desktop"/>
+        <value type="string" value="16434584999.desktop"/>
       </property>
       <property name="move-first" type="bool" value="true"/>
       <property name="show-label" type="bool" value="true"/>
