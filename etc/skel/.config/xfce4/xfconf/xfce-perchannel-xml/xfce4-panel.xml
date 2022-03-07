@@ -216,17 +216,17 @@
       <property name="disable-tooltips" type="bool" value="true"/>
       <property name="items" type="array">
         <value type="string" value="16434580301.desktop"/>
-        <value type="string" value="16434584995.desktop"/>
-        <value type="string" value="16434584990.desktop"/>
-        <value type="string" value="16434581492.desktop"/>
-        <value type="string" value="16434582803.desktop"/>
-        <value type="string" value="16434584054.desktop"/>
-        <value type="string" value="16434584985.desktop"/>
-        <value type="string" value="16434584996.desktop"/>
-        <value type="string" value="16434584997.desktop"/>
-        <value type="string" value="16434584998.desktop"/>
-        <value type="string" value="16434584999.desktop"/>
-        <value type="string" value="16434585000.desktop"/>
+        <value type="string" value="16434580302.desktop"/>
+        <value type="string" value="16434580303.desktop"/>
+        <value type="string" value="16434580304.desktop"/>
+        <value type="string" value="16434580305.desktop"/>
+        <value type="string" value="16434580306.desktop"/>
+        <value type="string" value="16434580307.desktop"/>
+        <value type="string" value="16434580308.desktop"/>
+        <value type="string" value="16434580309.desktop"/>
+        <value type="string" value="16434580310.desktop"/>
+        <value type="string" value="16434580311.desktop"/>
+        <value type="string" value="16434580312.desktop"/>
       </property>
       <property name="move-first" type="bool" value="true"/>
       <property name="show-label" type="bool" value="true"/>
