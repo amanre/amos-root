@@ -215,12 +215,12 @@
     <property name="plugin-36" type="string" value="launcher">
       <property name="disable-tooltips" type="bool" value="true"/>
       <property name="items" type="array">
-        <value type="string" value="16434580301.desktop"/>
-        <value type="string" value="16434581492.desktop"/>
-        <value type="string" value="16434582803.desktop"/>
-        <value type="string" value="16434584054.desktop"/>
-        <value type="string" value="16434584985.desktop"/>
+        <value type="string" value="16434584989.desktop"/>
         <value type="string" value="16434584990.desktop"/>
+        <value type="string" value="16434584991.desktop"/>
+        <value type="string" value="16434584992.desktop"/>
+        <value type="string" value="16434584993.desktop"/>
+        <value type="string" value="16434584994.desktop"/>
         <value type="string" value="16434584995.desktop"/>
         <value type="string" value="16434584996.desktop"/>
         <value type="string" value="16434584997.desktop"/>
