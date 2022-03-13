@@ -213,7 +213,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-36" type="string" value="launcher">
-      <property name="disable-tooltips" type="bool" value="true"/>
       <property name="items" type="array">
         <value type="string" value="16434584989.desktop"/>
         <value type="string" value="16434584990.desktop"/>
@@ -233,8 +232,9 @@
         <value type="string" value="16434585004.desktop"/>
         <value type="string" value="16434585005.desktop"/>
       </property>
-      <property name="move-first" type="bool" value="true"/>
+      <property name="disable-tooltips" type="bool" value="false"/>
       <property name="show-label" type="bool" value="true"/>
+      <property name="move-first" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="tasklist">
       <property name="flat-buttons" type="bool" value="true"/>
