@@ -1,7 +1,8 @@
 # DO NOT EDIT! This file will be overwritten by LXAppearance.
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
-gtk-theme-name="oomox-Cyberpunk-Neon"
+include "/home/amanre/.gtkrc-2.0.mine"
+gtk-theme-name="Midnight-Blue"
 gtk-icon-theme-name="arcolinux-candy-beauty"
 gtk-font-name="Cantarell 11"
 gtk-cursor-theme-name="Bibata-Modern-Pink"
