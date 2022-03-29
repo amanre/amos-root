@@ -1,2 +1,0 @@
-#!/bin/sh
-feh --no-fehbg --bg-fill '/home/amanre/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpapers/Arch.jpg' 
