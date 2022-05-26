@@ -259,11 +259,11 @@ POWERLINE_BASH_SELECT=1
 . /usr/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
 #clear && hfpfetchetch
 EDITOR=vim
-# >>> conda initialize >>
-#neofetch
+
+neofetch
 #hfetch
 #sfetch
-pfetch
+#pfetch
 ### RANDOM COLOR SCRIPT ###
 
 colorscript random
