@@ -1,2 +1,0 @@
-#!/bin/sh
-feh --no-fehbg --bg-fill '/home/amanre/.config/bspwm/backgrounds/66.jpg' 

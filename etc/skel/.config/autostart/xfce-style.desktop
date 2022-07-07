@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=065
-Comment=065
-Exec=/usr/share/amos/styles/65.sh
+Name=055
+Comment=055
+Exec=/usr/share/amos/styles/55.sh
 Icon=/usr/share/icons/AmOs/actions/24/channelmixer.svg
 Path=
 Terminal=false
