@@ -493,10 +493,10 @@ registrowallpaper=$(cat ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
 
-pfetch
+#pfetch
 #clear && hfetch
 EDITOR=vim
-#neofetch
+neofetch
 #hfetch
 #sfetch
 ### RANDOM COLOR SCRIPT ###
