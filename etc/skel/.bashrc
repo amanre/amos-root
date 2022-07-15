@@ -61,8 +61,6 @@ alias df='df -h'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 
-#arcolinux logout unlock
-alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
 
 #free
 alias free="free -mt"
@@ -140,8 +138,6 @@ alias mirrora="sudo reflector --latest 30 --number 10 --sort age --save /etc/pac
 alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 alias mirrorxx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 
 #shopt
 shopt -s autocd # change to named directory
@@ -163,12 +159,31 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
+#Leftwm aliases
+alias lti="leftwm-theme install"
+alias ltu="leftwm-theme uninstall"
+alias lta="leftwm-theme apply"
+alias ltupd="leftwm-theme update"
+alias ltupg="leftwm-theme upgrade"
+
+#dot management at github
+alias a="dots add"          # add files to repo
+alias c="dots commit -m"    # commit files to repo
+alias p="dots push"         # push files to repo
+alias rm="dots rm -r -f"    # remove files from repo
+alias dp="dots pull"
+
+# dot management at gitlab
+alias add="config add"
+alias commit="config commit -m"
+alias pu="config push"
+
 
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
-#iso and version used to install AMOS
+#iso and version used to install AmOs
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #Cleanup orphaned packages
@@ -204,15 +219,20 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-key="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.conf ~/.gnupg/ ; echo 'done'"
 
-#maintenance
-alias big="expac -H M '%m\t%n' | sort -h | nl"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
 
+# Github Dots
+alias dots='git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
+
+#Gitlab Dots
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
+
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
@@ -252,19 +272,15 @@ ex ()
 
 (cat ~/.cache/wal/sequences &)
  source ~/.cache/wal/colors-tty.sh
-
- powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/lib/python3.9/site-packages/powerline/bindings/bash/powerline.sh
+ 
 #clear && hfpfetchetch
 EDITOR=vim
-
+# >>> conda initialize >>
 neofetch
 #hfetch
 #sfetch
 #pfetch
 ### RANDOM COLOR SCRIPT ###
 
-colorscript random
+#colorscript random
 #colorscript -e illumina
